@@ -3,7 +3,9 @@ export const TodoFilter = () => (
     <p className="control">
       <span className="select">
         <select data-cy="statusSelect">
-          <option value="all" on click = {() => {}}>All</option>
+          <option value="all" onClick={() => {}}>
+            All
+          </option>
           <option value="active">Active</option>
           <option value="completed">Completed</option>
         </select>
