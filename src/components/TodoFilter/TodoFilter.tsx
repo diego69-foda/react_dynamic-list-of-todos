@@ -6,8 +6,12 @@ export const TodoFilter = () => (
           <option value="all" onClick={() => {}}>
             All
           </option>
-          <option value="active">Active</option>
-          <option value="completed">Completed</option>
+          <option value="active" onClick={() => {}}>
+            Active
+          </option>
+          <option value="completed" onClick={() => {}}>
+            Completed
+          </option>
         </select>
       </span>
     </p>
