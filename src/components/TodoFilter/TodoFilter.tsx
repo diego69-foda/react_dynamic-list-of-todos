@@ -3,13 +3,13 @@ export const TodoFilter = () => (
     <p className="control">
       <span className="select">
         <select data-cy="statusSelect">
-          <option value="all" onClick={() => {}}>
+          <option value="all" onChange={() => {}}>
             All
           </option>
-          <option value="active" onClick={() => {}}>
+          <option value="active" onChange={() => {}}>
             Active
           </option>
-          <option value="completed" onClick={() => {}}>
+          <option value="completed" onChange={() => {}}>
             Completed
           </option>
         </select>
@@ -28,7 +28,6 @@ export const TodoFilter = () => (
       </span>
 
       <span className="icon is-right" style={{ pointerEvents: 'all' }}>
-        {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
         <button data-cy="clearSearchButton" type="button" className="delete" />
       </span>
     </p>
